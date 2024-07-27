@@ -71,6 +71,7 @@ abstract class GroundOverlay extends MVCObject {
     return sc.stream;
   }
 
+  /// For double click
   Stream<MapMouseEvent> get onDblclick {
     late StreamController<MapMouseEvent> sc; // ignore: close_sinks
     late MapsEventListener mapsEventListener;
