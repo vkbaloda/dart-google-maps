@@ -22,7 +22,11 @@ dev_dependencies:
   html: ^0.15.0
   http: ^1.2.2
   js_wrapping_generator: #^0.7.4
-    path: ../dart-js-wrapping/js_wrapping_generator
+#    path: ../dart-js-wrapping/js_wrapping_generator
+    git:
+      url: https://github.com/vkbaloda/dart-js-wrapping.git
+      path: js_wrapping_generator
+      ref: vipul
   path: ^1.7.0
 
 # dependency_overrides:
